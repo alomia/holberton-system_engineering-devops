@@ -9,3 +9,5 @@
 4 script - display current directory contents, including hidden files
 
 5 script - displays the current contents of the directory
+
+6 script - create a directory
