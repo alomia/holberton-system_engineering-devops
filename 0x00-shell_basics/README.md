@@ -5,3 +5,5 @@
 2 script - change from working directory to home directory
 
 3 script - displays the content in long format
+
+4 script - display current directory contents, including hidden files
