@@ -19,3 +19,5 @@
 9 script - delete directory
 
 10 script - back to previous repository
+
+11 script - directory listing
