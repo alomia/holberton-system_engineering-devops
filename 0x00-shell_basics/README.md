@@ -25,3 +25,5 @@
 12 script - print file type
 
 13 script - creates symbolic link
+
+14 script - copy all files of one type and paste into another directory
