@@ -23,3 +23,5 @@
 11 script - directory listing
 
 12 script - print file type
+
+13 script - creates symbolic link
