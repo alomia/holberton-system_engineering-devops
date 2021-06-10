@@ -7,3 +7,5 @@
 3 script - displays the content in long format
 
 4 script - display current directory contents, including hidden files
+
+5 script - displays the current contents of the directory
