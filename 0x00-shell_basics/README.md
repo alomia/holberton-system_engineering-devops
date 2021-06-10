@@ -21,3 +21,5 @@
 10 script - back to previous repository
 
 11 script - directory listing
+
+12 script - print file type
