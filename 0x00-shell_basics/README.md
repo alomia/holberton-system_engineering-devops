@@ -3,3 +3,5 @@
 1 script - display the contents list of your current directory
 
 2 script - change from working directory to home directory
+
+3 script - displays the content in long format
