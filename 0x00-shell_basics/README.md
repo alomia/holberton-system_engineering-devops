@@ -13,3 +13,5 @@
 6 script - create a directory
 
 7 script - move files between directories
+
+8 script - delete files in directory
