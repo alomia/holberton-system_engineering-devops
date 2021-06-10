@@ -15,3 +15,5 @@
 7 script - move files between directories
 
 8 script - delete files in directory
+
+9 script - delete directory
