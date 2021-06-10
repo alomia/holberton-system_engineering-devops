@@ -11,3 +11,5 @@
 5 script - displays the current contents of the directory
 
 6 script - create a directory
+
+7 script - move files between directories
