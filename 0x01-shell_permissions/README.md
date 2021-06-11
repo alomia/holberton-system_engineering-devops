@@ -15,3 +15,5 @@
 7 script - add script that allows execution permissions to usersi
 
 8 script - owner and groups without permissions
+
+9 script - set the file mode
