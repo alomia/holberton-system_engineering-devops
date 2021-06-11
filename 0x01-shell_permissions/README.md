@@ -12,4 +12,6 @@
 
 6 script - execute permission to the owner and the group owner, and read permission to other users
 
-7 script - add script that allows execution permissions to users
+7 script - add script that allows execution permissions to usersi
+
+8 script - owner and groups without permissions
