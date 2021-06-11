@@ -17,3 +17,5 @@
 8 script - owner and groups without permissions
 
 9 script - set the file mode
+
+10 script - establishes the same permissions
