@@ -5,3 +5,5 @@
 2 script - shows the groups of the current useri
 
 3 script - change file owner
+
+4 script - create blank file
