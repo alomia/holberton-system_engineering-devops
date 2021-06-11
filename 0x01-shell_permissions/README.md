@@ -1,5 +1,7 @@
-1 script - change of current useri
+0 script - change of current useri
 
-2 script - prints the user name
+1 script - prints the user name
 
-3 script - shows the groups of the current user
+2 script - shows the groups of the current useri
+
+3 script - change file owner
