@@ -7,3 +7,5 @@
 3 script - change file owner
 
 4 script - create blank file
+
+5 script - add execution permissions to the file owner
