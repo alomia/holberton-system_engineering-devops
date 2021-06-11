@@ -29,3 +29,5 @@
 14 script - copy all files of one type and paste into another directory
 
 15 script - copies all files that begin with a capital letter
+
+16 script - deletes files ending with a specific character
