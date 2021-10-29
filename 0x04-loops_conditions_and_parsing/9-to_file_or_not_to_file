@@ -12,6 +12,10 @@ then
         else
                 echo "school file is not empty"
         fi
+        if [ -f $FILE ]
+        then
+                echo "school is a regular file"
+        fi
 else
         echo "No, no existe"
 fi
