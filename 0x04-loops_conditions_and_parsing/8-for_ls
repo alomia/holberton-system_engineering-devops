@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# script that displays the content of the current directory, in a list format
+path="./*"
+
+for file in $path
+do
+        files=$(basename "$file" | cut -d'-' -f2-)
+        echo "$files"
+done
