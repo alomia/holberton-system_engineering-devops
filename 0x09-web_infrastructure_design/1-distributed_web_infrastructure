@@ -1,0 +1,44 @@
+Distributed web infrastructure
+I explain some details of this infrastructure:
+        - For every additional element, why you are adding it:
+                A load balancer distributes user traffic among multiple instances of your applications.
+                By distributing the load, load balancing reduces the risk of your applications
+                experiencing performance problems.
+                
+                HAProxy Enterprise is the industry’s leading software load balancer. It powers modern application
+                delivery at any scale and in any environment, providing the utmost performance,
+                observability and security.
+
+        - What distribution algorithm your load balancer is configured with and how it works:
+                the algorithm is known as round-robin
+
+                Round-Robin: requests are distributed among the servers cyclically, regardless of the server load.
+                It distributes the requests evenly, but not the load.
+
+        - Is your load-balancer enabling an Active-Active or Active-Passive setup, explain the difference between both:
+                Our load balancer is configured in active-active mode.
+                Active-active solutions implement two or more active system instances and can be used to
+                improve scalability and provide high availability. In active-active deployments,
+                all instances handle requests at the same time.
+
+        - How a database Primary-Replica (Master-Slave) cluster works:
+                Master-slave synchronization allows data to be replicated from one database server to other servers.
+                When data is replicated, one server acts as the master server and the remaining servers act as slaves.
+
+        - What is the difference between the Primary node and the Replica node in regard to the application:
+                The difference is that the primary node is in charge of receiving the information, and the replica node is in charge of
+                replicating the database of the primary node.
+
+I explain the problems of this infrastructure:
+        - Where are SPOF
+                Refers to one fault or malfunction that can cause an entire system to stop operating.
+
+                This type of infrastructure does not have a firewall to filter malicious requests or malwares.
+
+        Security issues (no firewall, no HTTPS)
+                
+        No monitoring
+                There is no monitoring tool such as application or server monitoring, i.e. there are no statistics on how the resources
+                of each server are being managed and functioning.
+
+Infrastructure design: https://imgur.com/qKwhonB
