@@ -1,0 +1,39 @@
+Distributed web infrastructure
+I explain some details of this infrastructure:
+        -For every additional element, why you are adding it:
+                
+                Firewall: security to control incoming and outgoing network traffic.
+
+                SSL certificate: security protocol that creates an encrypted link between a web server and a web browser. 
+
+                Monitoring clients: check the status and health of the servers you use to access virtual machines and containers.
+
+        -What are firewalls for:
+                A Firewall is a Security Product, whose main function is to filter out unauthorized and malicious
+                traffic and they run between trusted and untrusted networks i.e private networks and the intern
+                
+        -Why is the traffic served over HTTPS:
+                https is more secure. Since https uses the secure port 443, which encrypts outgoing data,
+                it is much more difficult for people to spy on your site.
+
+        -What monitoring is used for:
+                The monitoring software will monitor the computer's metrics, record them and issue an alert if
+		anything unusual occurs or that may cause the computer to malfunction.
+
+        -How the monitoring tool is collecting data:
+                
+        -Explain what to do if you want to monitor your web server QPS:
+
+I explain the problems of this infrastructure:
+        - Where are SPOF
+                Refers to one fault or malfunction that can cause an entire system to stop operating.
+
+                This type of infrastructure does not have a firewall to filter malicious requests or malwares.
+
+        Security issues (no firewall, no HTTPS)
+                
+        No monitoring
+                There is no monitoring tool such as application or server monitoring, i.e. there are no statistics on how the resources
+                of each server are being managed and functioning.
+
+Infrastructure design: https://imgur.com/GMumbzS
