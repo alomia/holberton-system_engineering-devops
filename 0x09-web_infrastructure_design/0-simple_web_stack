@@ -1,0 +1,42 @@
+Simple web stack:
+I explain some details of this infrastructure:
+        - What is a server:
+                A server is a computer that is integrated into a computer network where other machines,
+                computers or clients are located and that is fed with all kinds of information to store it and then
+                distribute it. In addition, they are never shut down, are always operational to offer the best
+                services and are programmed to be tolerant to not very serious failures.
+
+        - What is the role of the domain name:
+                It is a unique name that represents a website or web application on the Internet.
+
+        - What type of DNS record www is in www.foobar.com:
+                CNAME: can be used to alias a hostname to another hostname.
+
+       - What is the role of the web server:
+                It is a computer that stores the files that make up a website
+                (e.g. HTML documents, images, CSS style sheets and JavaScript file)
+                and delivers them to the end user's device. It is connected to the Internet
+                and is accessible through a domain name.
+
+        - What is the role of the application server:
+                A type of server designed to install, operate and host applications and associated services for end users.
+        
+        - What is the role of the database:
+                The database stores the data to be supplied to the application upon request.
+
+        - What is the server using to communicate with the computer of the user requesting the website:
+                It uses a web protocol called HTTP (Hypertext Transfer Protocol).
+
+                The HTTP protocol is the protocol that allows the exchange of hypertext information (links) of web pages.
+
+I explain the problems of this infrastructure:
+
+        - SPOF:
+                refers to one fault or malfunction that can cause an entire system to stop operating.
+
+        - Downtime when maintenance needed (like deploying new code web server needs to be restarted)
+
+        - Cannot scale if too much incoming traffic
+
+                
+Infrastructure design: https://imgur.com/CSvfyEt
