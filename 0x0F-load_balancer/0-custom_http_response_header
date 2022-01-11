@@ -20,3 +20,4 @@ sudo sed -i "34i $newhttp" /etc/nginx/sites-available/default
 
 sudo service nginx restart
 sudo service nginx reload
+
