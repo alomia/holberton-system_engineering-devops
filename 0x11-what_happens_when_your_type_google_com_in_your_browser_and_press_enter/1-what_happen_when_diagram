@@ -1,0 +1,22 @@
+DNS resolution
+        Is the process of translating IP addresses to domain names.
+
+Encrypted traffic:
+        Network traffic is encrypted with SSL certificates before going out to the Internet.
+
+traffic goes through a firewall:
+        Traffic passes through the firewall to monitor incoming and outgoing network traffic and decides whether
+        to allow or block specific traffic based on a defined set of security rules.
+
+that the request is distributed via a load balancer:
+        The requests made to the network are distributed by the load balancer so as not to saturate the servers.
+
+that the web server answers the request by serving a web page:
+
+that the application server generates the web page:
+
+that the application server request data from the database:
+
+link:
+        https://miro.com/welcomeonboard/aVlHZkFiemt1YW9rcEUxOWc5OHBaU3AxVWNXVXcyWG9XZGZ6TVp0cTFwdUVIcW91bE1ZRzBHaXBmSHN6dDlrdHwzMDc0NDU3MzYyMjc3Njg0MzYy?invite_link_id=345779706798
+
