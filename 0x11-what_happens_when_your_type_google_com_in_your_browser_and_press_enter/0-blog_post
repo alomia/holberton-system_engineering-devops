@@ -1,17 +1,49 @@
-1. Analyze the URL
+DNS request:
+        is a demand for information sent from a user's computer (DNS client) to a DNS server
 
-2. Obtain domain IP address
+TCP/IP:
+        is a suite of communication protocols used to interconnect network devices on the internet.
+        
+        Layers of the TCP/IP model:
+        
+        1. application layer, enables the user -- software or human -- to interact with the application or network
+        when the user wants to read messages, transfer files or
+        2. transport layer, handles transferring data across a network and providing error-checking mechanisms
+        and data flow controls
+        3. network layer, moves data into and through other networks.
+        4. physical layer, transports data using electrical, mechanical or procedural interfaces.
 
-3. TCP/IP packet construction
+Firewall:
+        A firewall is a network security device that monitors incoming and outgoing network traffic and
+        decides whether to allow or block specific traffic based on a defined set of security rules.
 
-4. Routing through the Internet
+HTTPS/SSL:
+        Hypertext Transfer Protocol (HTTP), protocol for transmitting hypermedia documents, such as HTML.
+        It was designed for communication between web browsers and web servers, but it can also be used
+        for other purposes.
 
-5. Handshaking , Web server, Application server and Database
+        SSL is the standard technology for maintaining the security of an Internet connection,
+        as well as for protecting any sensitive information sent between two systems and
+        preventing criminals from reading and modifying the data being transferred, including information that
+        could be considered personal.
 
-6. SSL link protocol
+Load-balancer:
+        Load balancing refers to efficiently distributing incoming network traffic across a group of backend servers,
+        also known as a server farm or server pool.
 
-7. Processing of the application
+Web server:
+         It is a computer program that accepts the request for data and sends the specified documents.
+         Web server may be a computer where the online content is kept.
 
-8. Closing the connection
+Application server:
+        An application server is a mixed framework of software that allows both the creation of web applications and
+        a server environment to run them.
 
-https://medium.com/@alomia730/what-happens-when-we-search-for-the-url-in-the-browser-and-press-enter-84677d264ef3
+        Database:
+        A database is information that is set up for easy access, management and updating.
+        Computer databases typically store aggregations of data records or files that contain information,
+        such as sales transactions, customer data, financials and product information.
+
+blog link:
+        https://medium.com/@alomia730/what-happens-when-we-search-for-the-url-in-the-browser-and-press-enter-84677d264ef3
+
