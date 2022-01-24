@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 # Block all incoming traffic but
 
-sudo ufw deny 
+sudo apt install ufw
+
+sudo ufw default deny incoming
 
 sudo ufw allow 22
 sudo ufw allow 443
