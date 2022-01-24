@@ -15,4 +15,3 @@ sudo ufw allow 80
 
 # Turn on ufw
 sudo ufw enable
-
