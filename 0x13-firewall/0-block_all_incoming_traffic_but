@@ -1,17 +1,13 @@
 #!/usr/bin/env bash
-# Linux firewall configuration
+# Block all incoming traffic but
 
-# Turn off ufw
 sudo ufw disable
 
-# Restore default config
 sudo ufw default deny incoming
 sudo ufw default allow outgoing
 
-# Set ports allowed
 sudo ufw allow 22
 sudo ufw allow 443
 sudo ufw allow 80
 
-# Turn on ufw
 sudo ufw enable
