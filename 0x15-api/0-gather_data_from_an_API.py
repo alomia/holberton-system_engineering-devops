@@ -17,7 +17,8 @@ def run():
         for iter in tasks:
                 if iter.get('completed') is True:
                         tasks_completed.append(iter.get('title'))
-        print('Employee {} is done with tasks({}/{}): '.format(user.get('name'),
+        print('Employee {} is done with tasks({}/{}): '
+                .format(user.get('name'),
                 len(tasks_completed), len(tasks)))
 
         for iter in tasks_completed:
