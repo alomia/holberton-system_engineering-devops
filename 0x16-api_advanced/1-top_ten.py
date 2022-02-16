@@ -15,4 +15,3 @@ def top_ten(subreddit):
         [print(value['data']['title']) for value in r['children']]
     except(Exception):
         print('None')
-
