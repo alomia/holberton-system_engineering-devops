@@ -9,5 +9,5 @@ def number_of_subscribers(subreddit):
                                 'MyHOlbertonAPI/0.0.1'})
         data = response.json()['data']['subscribers']
         return data
-    except:
+    except(Exception):
         return 0
