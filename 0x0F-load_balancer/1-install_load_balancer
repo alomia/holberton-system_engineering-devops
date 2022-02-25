@@ -14,8 +14,8 @@ frontend http
 backend icap_pool
 	balance roundrobin
 	mode http
-	server 3332-web-01 35.237.25.66:80 check
-	server 3332-web-02 34.234.71.240:80 check" | sudo tee -a $path > /dev/null
+	server 3332-web-01 3.93.164.52:80 check
+	server 3332-web-02 18.207.92.226:80 check" | sudo tee -a $path > /dev/null
 
 sudo service haproxy start
 sudo service nginx restart
