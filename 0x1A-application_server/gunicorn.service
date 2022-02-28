@@ -11,4 +11,3 @@ ExecStart=/home/ubuntu/.local/bin/gunicorn --workers 3 --bind 0.0.0.0:5003 web_d
 
 [Install]
 WantedBy=multi-user.target
-
