@@ -48,7 +48,7 @@ server {
                 proxy_pass http://0.0.0.0:5002/api/;
         }
 
-        location / {
+        location /$ {
                 include proxy_params;
                 proxy_pass http://0.0.0.0:5003/2-hbnb/;
         }
